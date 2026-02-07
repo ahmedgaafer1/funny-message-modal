@@ -1,22 +1,26 @@
-# Coding Valentine Gift 💖
+# Funny Message Modal 💌
 
-A romantic, interactive Valentine's Day coding gift built with **Angular 19**.
+A small, playful UI micro-interaction built with **Angular 19**.  
+A fun side project to practice **UI/UX polish**, **signals**, and **OnPush performance**.
 
-## Features
-- **Interactive Modal**: A playful "Will you be my Valentine?" modal where the "No" button mischievously runs away.
-- **Success Celebration**: A celebratory screen with confetti and a custom GIF upon acceptance.
-- **Modern UI**: Built with Glassmorphism, TailwindCSS, and smooth animations.
-- **Performance**: Fully optimized with Angular Signals and `OnPush` change detection.
+## What it does
+- Shows a romantic modal question.
+- The **"No"** button playfully escapes within the modal bounds.
+- The **"Yes"** button reveals a celebration screen with confetti + GIF fallback.
+
+## Highlights
+- Angular 19 standalone components + Signals
+- `ChangeDetectionStrategy.OnPush`
+- Responsive layout for mobile/tablet/desktop
+- Lightweight CSS animations (no heavy JS loops)
+- Local asset support (`assets/gifs/dance.gif`) + graceful fallback
 
 ## Tech Stack
-- Angular 19 (Standalone Components, Signals)
+- Angular 19
 - Tailwind CSS
 - TypeScript
 
-## Author
-**Ahmed Gaafer**
+> Note:Funny Message Modal Built with AI-assisted tooling  and Reviewed by Ahmed Gaafer.
 
-## Setup
-1. `npm install`
-2. `ng serve`
-3. Enjoy the love! 🌹
+npm install
+ng serve
